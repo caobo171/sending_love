@@ -28,5 +28,3 @@ A small thing for my darling and our ... something I can't describe hihi
 - Other products on <a href="https://www.behance.net/meokisama">__Behance__</a> 🏓
 - Daily photos on <a href="https://www.instagram.com/hi.im.meoki/">__Instagram__</a> 📷
 - "Wibu" collection on <a href="https://www.flickr.com/photos/meokisama/albums">__Flickr__</a> 👾\
-
-
