@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://meokisama.github.io">
-    <img src="favicon.png" />
+    <img src="img/favicon.png" />
   </a>
 </p>
 
