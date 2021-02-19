@@ -16,7 +16,7 @@
 </p>
 
 ## About
-A small thing for my darling and our ... something I can't describe hihi
+A small thing for my darling !
    
 ## Demo
 [Click here !](https://meokisama.github.io/together)
