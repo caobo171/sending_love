@@ -107,16 +107,6 @@ footer {
       margin-top: 2.2rem;
 }
 
-#music {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      grid-column: 2;
-      position: relative;
-      z-index: 1000;
-      opacity: .4;
-}
-
 #mask {
       background-image: linear-gradient(to top, #6d44cc5d 0%, #f09cd880 100%);
       opacity: .42;
