@@ -19,7 +19,7 @@
 A small thing for my darling !
    
 ## Demo
-[Click here !](https://meokisama.github.io/together)
+[Click here !](https://meoki.net/together)
 
 ## Find me around the web 🌎:
 <a href="https://facebook.com/slytherinnn/"><img align="left" width="150" height="150" src="https://github.com/meokisama/meokisama/blob/master/image/2750554.png"> </a>
