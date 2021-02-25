@@ -17,7 +17,7 @@ $(function () {
         nTime = 0, 
         buffInterval = null, 
         tFlag = false, 
-        albums = ['スパークル', 'The Muffin Song'], 
+        albums = ['Sparkle', 'The Muffin Song'], 
         trackNames = ['Sparkle - RADWIMPS', 'The Muffin Song - asdfmovie'], 
         albumArtworks = ['_1', '_2'], 
         trackUrl = ['https://raw.githubusercontent.com/meokisama/together/master/music/sparkle.mp3', 
