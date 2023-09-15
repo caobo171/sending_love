@@ -13,20 +13,18 @@ var slides = [
 	{ image: '', caption: 'Cùng nhau mình vượt mọi chướng ngại, Em nhé !! ' },
 ]
 
+var html = '';
+for (var i = 0; i < slides.length; i++) {
+	html += `<div class="mySlides fade">
+		<img src="img/slides/pic${i+1}.jpg " style="width:100%">
+		<div class="text">${slides[i].caption}</div>
+	</div>`
+}
+
+$('.slideshow-container').html(html);
+
 var interval = null;
 function showSlides() {
-
-	var html = '';
-	for (var i = 0; i < slides.length; i++) {
-		html += `<div class="mySlides fade">
-			<img src="img/slides/pic${i+1}.jpg " style="width:100%">
-			<div class="text">${slides[i].caption}</div>
-		</div>`
-	}
-
-
-
-	$('.slideshow-container').html(html);
 	$('.slideshow-container').show();
 	$('#info').hide();
 
