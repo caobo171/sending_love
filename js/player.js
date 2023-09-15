@@ -17,11 +17,10 @@ $(function () {
         nTime = 0, 
         buffInterval = null, 
         tFlag = false, 
-        albums = ['Sparkle', 'The Muffin Song'], 
-        trackNames = ['Sparkle - RADWIMPS', 'The Muffin Song - asdfmovie'], 
-        albumArtworks = ['_1', '_2'], 
-        trackUrl = ['https://raw.githubusercontent.com/meokisama/together/master/music/sparkle.mp3', 
-                    'https://raw.githubusercontent.com/meokisama/together/master/music/muffin.mp3'], 
+        albums = ['Mặt mộc'], 
+        trackNames = ['Mặt mộc - Anh yêu em'], 
+        albumArtworks = ['_1'], 
+        trackUrl = ['music/mat_moc.mp3'], 
         playPreviousTrackButton = $('#play-previous'), 
         playNextTrackButton = $('#play-next'), 
         currIndex = -1;
@@ -34,6 +33,7 @@ $(function () {
                 checkBuffering();
                 i.attr('class', 'fas fa-pause');
                 audio.play();
+                showSlides();
             }
             else {
                 playerTrack.removeClass('active');
@@ -42,6 +42,7 @@ $(function () {
                 albumArt.removeClass('buffering');
                 i.attr('class', 'fas fa-play');
                 audio.pause();
+                hideSlides();
             }
         }, 300);
     }
